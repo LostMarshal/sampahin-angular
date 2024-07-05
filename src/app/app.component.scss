@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+
+.log-btn{
+    background-color: #184D47;
+    height: 2.5rem;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: row;
+}
